@@ -1,0 +1,115 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image: url("pexels-cátia-matos-1072179.jpg");
+background-repeat: repeat;
+background-size: cover;
+background-color: rgba(30, 50, 50, 0.3);
+overflow: auto;
+background-attachment: scroll;
+overflow-y:scroll;
+
+}
+h1{
+color: white;
+font-family:Georgia ;
+font-size:40px;
+display:inline-block;
+}
+h1::first-letter{
+color: goldenrod;
+font-size: 45px
+}
+.x{
+background-color: rgba(30, 50, 50, 0.5);
+background-position: center;
+height: 500px;
+width: 1050px;
+
+border:15px silver double;
+background-image: url("user.png");
+background-repeat: no-repeat;
+background-position: center 80px;
+
+margin: 30px;
+display:block;
+}
+a{
+color: silver;
+font-size: 20px;
+font-family: Georgia;
+margin-left: 10px;
+margin-top: 20px;
+display: inline-block;
+}
+a:hover{
+color: goldenrod;
+}
+
+
+label1 {
+color: white;
+font-size: 30px;
+font-family:Georgia;
+padding-top:125px;
+display: block;
+
+}
+label {
+color: white;
+font-size: 30px;
+font-family:Georgia;
+padding:10px;
+display: block;
+
+}
+ select{
+   color: silver
+ }
+
+input{
+background-color: ;
+color :black;
+border-color: white;
+font-family:Georgia ;
+}
+h2::first-letter{
+color: goldenrod;
+font-size: 40px;
+font-family: Georgia
+}
+h2{
+color: white;
+margin-left: 20px
+}
+
+label2{
+color: white;
+font-size: 20px;
+font-family:Georgia;
+display: inline-block;
+margin: 20px
+}
+label2::first-letter{
+  color: goldenrod;
+  font-size: 25px
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-family:Georgia;
+}
+p::first-letter{
+  color: goldenrod;
+  font-size: 25px
+}
+a1{
+  color: silver;
+  font-size: 20px;
+  font-family: Georgia;
+  display: inline-block;
+  }
+  a1:hover{
+  color: goldenrod;
+  margin-bottom: 20px
+  }
